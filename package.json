@@ -1,0 +1,26 @@
+{
+  "name": "crsbdbackend",
+  "version": "1.0.0",
+  "description": "banco de dados do CRS Controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipexxborba/crsbdbackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipexxborba/crsbdbackend/issues"
+  },
+  "homepage": "https://github.com/filipexxborba/crsbdbackend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "nodemon": "^2.0.12"
+  }
+}
